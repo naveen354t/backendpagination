@@ -1,0 +1,16 @@
+GET  http://localhost:8080/api/movies
+
+
+###
+GET  http://localhost:8080/api/movies?page=1&limit=6
+
+
+
+###
+GET  http://localhost:8080/api/movies?page=1&limit=6&genre=Drama
+
+####
+GET  http://localhost:8080/api/movies?page=1&limit=6&genre=Drama&sort=year,desc
+
+###
+GET  http://localhost:8080/api/movies?page=1&limit=6&genre=Drama&sort=year,desc&search=god
